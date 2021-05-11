@@ -6,7 +6,7 @@ import json
 # has monthly limit of 3000 per month
 
 
-api_key = ${{secret.API_KEY}}
+api_key = #API Key is stored in BitWarden with the name stockdb
 header = {"X-API-KEY":api_key}
 
 while(True):
